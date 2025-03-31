@@ -6,42 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="https://www.google.com.br/search" method="get">
-        <fieldset>
-            <legend>Busca</legend>
-            <abbr>*<abbr><label for="termo busca">Termo de Busca: </label>
-        <input type="text" name="q"  id="termo_busca" required placeholder="Digite algo">
-            </fieldset>
-       <fieldset>   
-        <legend>Opcoes de Busca</legend>
-        <label for="campo resenha">Resenha:</label>
-        <textarea name="resenha" id="campo_resenha" rows="s" cols="50" placeholder="Resenha da busca"></textarea>
-       </div>
-       <div>
-        <label form="campo horario">Horario de Busca</label>
-        <select name="tbs" id="campo_horario">
-            <option value="">Qualquer horario</option>
-            <option value="qdr:h">Ultima hora</option>
-            <option value="qdr:d">Ultimo dia </option>
-            <option value="qdr:w">Ultima semana</option>
-            </select>
-        </div>
-        <div>
-            <label for="campo data">Data consulta:</label>
-            <input type="date" name="date" id="campo_data">
-            </div>
-            <div>
-                <label for="campo_qtd">Quantidade Resultados:</label>
-                <input for="number" name="qtd" id="campo_qtd" min="10" max="50" step="10">
-            </div>
-            <div>
-                <label for="campo cpf">CPF:</label>
-                <input type="text" name="cpf" id="campo_cpf" pattern="\d{3}.\d{3}.\d{3}-\d{2}">
-            </div
-           </fieldset>
->        <button type="submit" formaction="http://www.google.com.br/search">Pesquisar Google</button>
-<button type="submit" formaction=" http://www.bing.com/search">Pesquisar Bing</button>
-        <form>
-        
-</body>
-</html>
+   <form action="https://www.google.com.br/search" method="get">
+     <fieldset>
+           <p>
+             <label for="nome">Nome:</label>
+             <input type="text" size="30" id="nome"><br>
+               </p>
+               <p>
+                 <label for="email">E-Mail:</label>
+                 <input type="text" size="30" id="email"><br>
+                   </p>
+                   <p>
+           <label for="datanasc">Data de Nascimento:</label>
+          <input type="text" size="10" id="datanasc">
+           <p>
+           <fieldset>   
+        <legend>Busca</legend>
+             <label for="campo de texto">Texto:</label>
+                <textarea name="texto" id="campo_texto" rows="s" cols="50" placeholder="Texto para Pesquisa"></textarea>
+             <button type="submit"
+          formaction="http://www.google.com.br/search">Pesquisar Google</button>
+
+
